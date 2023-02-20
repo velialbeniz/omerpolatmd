@@ -155,7 +155,7 @@ main #articles {
 }
 main #articles h4 {
   font-size: 2rem;
-  font-family: "Europa", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 main #articles p {
   line-height: 2;
@@ -249,6 +249,37 @@ footer .footer-bottom {
 }
 footer .footer-bottom div {
   line-height: 50px;
+}
+
+.about {
+  margin-top: 160px;
+  height: 40vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C0C0C0;
+}
+.about h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Europa", sans-serif;
+}
+
+.about-content {
+  background-color: #fff;
+  padding: 110px 0 70px 0;
+}
+.about-content h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+.about-content p {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 1599px) {
