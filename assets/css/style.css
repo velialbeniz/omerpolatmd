@@ -5,6 +5,9 @@ body {
   opacity: 0;
   transition: opacity 1s;
 }
+body a {
+  color: inherit;
+}
 
 .container {
   max-width: 92%;
@@ -80,7 +83,7 @@ header .header-main nav .item span {
   transition: 0.3s;
 }
 header .header-main nav .item span:hover {
-  color: red;
+  opacity: 0.3;
 }
 header .header-main nav .item .item-list {
   line-height: 2;
@@ -109,7 +112,7 @@ header .header-main nav a {
   transition: 0.3s;
 }
 header .header-main nav a:hover {
-  color: red;
+  opacity: 0.4;
 }
 
 main .banner {
@@ -226,11 +229,10 @@ footer .footer-top {
 footer .footer-top a {
   color: #292727;
   display: block;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 footer .footer-top a:hover {
-  color: black;
-  font-weight: 700;
+  opacity: 0.4;
 }
 footer .footer-top .social-media {
   height: 100%;
@@ -313,4 +315,15 @@ footer .footer-bottom div {
   padding: 0.5rem 0;
   text-transform: capitalize;
   border-bottom: 1px solid #DBDBDB;
+}
+.content .location {
+  transition: 0.4s;
+}
+.content .location:hover {
+  opacity: 0.4;
+  color: #292727;
+}
+.content .location img {
+  width: 20px;
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */

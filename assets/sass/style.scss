@@ -18,6 +18,10 @@ body {
     font-family: $primary-font;
     opacity: 0;
     transition: opacity 1s;
+
+    a {
+        color: inherit;
+    }
 }
 
 .container {
@@ -107,7 +111,7 @@ header {
                 }
 
                 span:hover {
-                    color: red;
+                    opacity: .3;
                 }
 
                 .item-list {
@@ -141,7 +145,7 @@ header {
                 transition: .3s;
 
                 &:hover {
-                    color: red;
+                    opacity: .4;
                 }
 
             }
@@ -310,11 +314,10 @@ footer {
         a {
             color: #292727;
             display: block;
-            transition: .5s;
+            transition: .4s;
 
             &:hover {
-                color: black;
-                font-weight: 700;
+                opacity: .4;
             }
         }
 
@@ -414,6 +417,19 @@ footer {
             padding: 0.5rem 0;
             text-transform: capitalize;
             border-bottom: 1px solid #DBDBDB;
+        }
+    }
+
+    .location {
+        transition: .4s;
+
+        &:hover {
+            opacity: .4;
+            color: #292727;
+        }
+        img{
+            width: 20px;
+            display: inline-block;
         }
     }
 }

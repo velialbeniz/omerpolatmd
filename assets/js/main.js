@@ -13,6 +13,7 @@ $('body .dark-bg').click(function(){
     $('body .dark-bg').removeClass('active');
     $('.item .item-list').removeClass('active');
     $('.side-bar').removeClass('active');
+    $('.mobile').removeClass('active');
 
 })
 
